@@ -20,7 +20,7 @@
     Tp3 = 0.025*9803  = 242
 */
 
-#define SERVO_PWM 12                // Define a pinagem do servomotor 
+#define SERVO_PWM 22                // Define a pinagem do servomotor 
 const uint16_t WRAP_PERIOD = 9803;  // Valor máximo do contador - WRAP
 const uint16_t WRAP_0 = 1176;       // Duty cycle para 0°
 const uint16_t WRAP_90 = 720;       // Duty cycle para 90°
